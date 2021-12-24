@@ -8,4 +8,8 @@ class AdventOfCodeSpringKotlinApplication
 
 fun main(args: Array<String>) {
 	runApplication<AdventOfCodeSpringKotlinApplication>(*args)
+
+	val path = System.getProperty("user.dir")
+
+	println("Working Directory = $path")
 }
